@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Roboto:ital,wght@0,400;0,500;0,900;1,400&display=swap" rel="stylesheet">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="center">
+        <h1>Login</h1>
+        <form action="post">
+            <div class="usr-info">
+                <label for="">Email:</label> <br>
+                <input type="email" name="name" id="email" placeholder="user@gmail.com" required pattern=".\@gmail.com">
+            </div>
+
+            <div class="usr-info">
+                <label for="">Senha:</label> <br>
+                <input type="password" name="password" id="password" required>
+            </div>
+
+            <div class="pass"><input type="checkbox">Forgot Password?</div>
+
+            <button type="submit">Login</button>
+
+            <div class="sign-up">
+                Not a member? <a href="./sign-up.html">Sign-up</a>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
